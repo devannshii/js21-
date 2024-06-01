@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        #form{
+            margin: 100px;
+            padding: 100px;
+        }
+        #form div{
+            padding: 10px;
+        }
+        #form div input{
+            padding: 15px
+        }
+    </style>
+</head>
+<body>
+     <div id="form">
+        <center>
+        <form>
+            <div><input  class="name" type="text" placeholder="Enter name"></div>
+            <div><input class="email" type="email" placeholder="Enter email"></div>
+            <div><input class="no" type="number" placeholder="Enter number"></div>
+            <div><input class="pass" type="password" placeholder="Enter password"></div>
+            <div><input class="pass2" type="password" placeholder="confirm password"></div>
+            <div><center><button onclick="return show()">Registration</button></center></div>
+        </form>
+        </center>
+     </div>
+     <script src="./validation.js"></script>
+</body>
+</html>
